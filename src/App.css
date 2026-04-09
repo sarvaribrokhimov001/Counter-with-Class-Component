@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.count__number {
+  color: white;
+  font-size: 60px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.decrement__btn {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: black;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  border: 3px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);  
+}
+
+.decrement__btn:hover {
+  box-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red, 0 0 80px red;
+}
+
+.decrement__btn:active {
+  background-color: red;
+  color: white;
+  border: 3px solid white;
+}
+
+.increment__btn {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: black;
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+  border: 3px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 255, 0, 0.4);
+}
+
+.increment__btn:hover {
+  box-shadow: 0 0 10px lime, 0 0 20px lime, 0 0 40px lime, 0 0 80px lime;
+}
+
+.increment__btn:active {
+  background-color: green;
+  color: white;
+  border: 3px solid white;
+}
+
+.reset__btn {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: black;
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(255, 255, 0, 0.4);
+}
+
+.reset__btn:hover {
+  box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow, 0 0 80px yellow;
+}
+
+.reset__btn:active {
+  background-color: yellow;
+  color: white;
+  border: 3px solid white;
+}
